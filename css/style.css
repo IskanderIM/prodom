@@ -56,3 +56,10 @@ a{
     object-fit: cover;
     object-position: left;
 }
+
+@media (max-width: 991.98px) { 
+    .houseSiteSelection{
+        height: 10%;
+        margin-top: 5%;
+    }
+ }
