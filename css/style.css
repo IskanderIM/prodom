@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'Sansation'; 
+    font-style: normal;
+    font-weight: normal;
+	src: url(/fonts/Sansation_Regular.ttf);
+}
+body{
+    background-image: url(../img/background.png);
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 64px;
+}
+a{
+    color: #000000;
+}
+.mt-158{
+    margin-top: 158px;
+}
+.navbar{
+    font-family: Sansation;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 34px;
+}
+.navbar-line{
+    border: 3px solid #1E1E1E;
+}
+.icon-header{
+    max-width: 311px;
+}
+.btn{
+    font-size: 30px;
+}
+.nav-link{
+    padding: 0.81rem 1rem;
+    color: #000000;
+}
+.mh-37{
+    max-height: 37rem;
+}
+
+.houseSiteSelection{
+    /* width: 689px; */
+    /* max-height: 56rem; */
+    height: 60rem;
+    /* left: 1519px; */
+    /* top: 1444px; */
+    object-fit: cover;
+    object-position: left;
+}
+
+@media (max-width: 991.98px) { 
+    .houseSiteSelection{
+        height: 10%;
+        margin-top: 5%;
+    }
+ }
